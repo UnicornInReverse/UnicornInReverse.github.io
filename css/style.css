@@ -98,17 +98,19 @@ cross {
 }
 
 .playerOne {
-  background-color: rebeccapurple;
+  background-color: #7041b7;
   width: 20%;
   height: 15%;
   position: fixed;
   font-size: 41px;
   text-align: center;
   line-height: 100px;
+  border-bottom: solid lightgray;
+  border-right: solid lightgray;
 }
 
 .playerTwo {
-  background-color: rebeccapurple;
+  background-color: #7041b7;
   width: 20%;
   height: 15%;
   position: fixed;
@@ -116,10 +118,12 @@ cross {
   text-align: center;
   line-height: 100px;
   right: 0;
+  border-bottom: solid lightgray;
+  border-left: solid lightgray;
 }
 
 .button {
-  background-color: rebeccapurple;
+  background-color: #7041b7;
   border: medium solid;
   color: white;
   font-size: 30px;
